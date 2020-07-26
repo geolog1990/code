@@ -11,11 +11,11 @@ namespace test25
             int a, b;
             char result;
             StreamReader streamReader = new StreamReader("input.txt");
-            string s = streamReader.ReadToEnd();
+            var s = streamReader.ReadToEnd().Split(new Char []{' ', '\r', '\n'});
             try
             {
-                a = s.First();
-                b = s.Last();
+                a = Int32.Parse(s.First());
+                b = Int32.Parse(s.Last());
                 
                 if (a < b)
                 {
@@ -40,8 +40,6 @@ namespace test25
                 Console.WriteLine(e);
                 throw;
             }
-
-           
         }
     }
 }
