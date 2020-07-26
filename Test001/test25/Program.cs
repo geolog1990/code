@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
-using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Threading;
 
 namespace test25
 {
@@ -8,41 +10,31 @@ namespace test25
     {
         public static void Main(string[] args)
         {
-            int a, b;
+            List<int> list = new List<int>();
             char result;
-            StreamReader streamReader = new StreamReader("input.txt");
-            var s = streamReader.ReadToEnd().Split(new char[]{ ' ','\n','\r'});
-            
-            try
+            using (StreamReader streamReader = new StreamReader("input.txt"))
             {
-                a = Convert.ToInt32(s.First()) ;
-                b = Convert.ToInt32(s.Last());
-                
-                if (a < b)
+                while (!streamReader.EndOfStream)
                 {
-                    result = '<';
-                }
-                else if (a > b)
-                {
-                    result = '>';
-                }
-                else
-                {
-                    result = '=';
-                }
-
-                using (StreamWriter streamWriter = new StreamWriter("output.txt"))    
-                {
-                    streamWriter.Write(result);
+                    list.Add(int.Parse(streamReader.ReadLine()));
                 }
             }
-            catch (Exception e)
+
+            if (list[0] > list[1])
+                result = '>';
+            else if (list[0] < list[1])
+                result = '<';
+            else
             {
-                Console.WriteLine(e);
-                throw;
+                result = '=';
             }
 
-           
+            using (StreamWriter streamWriter = new StreamWriter("output.txt"))
+            {
+                streamWriter.Write(result);
+            }
+
+
         }
     }
 }
