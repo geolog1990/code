@@ -15,6 +15,7 @@ namespace test25
             using (StreamReader streamReader = new StreamReader("input.txt"))
             {
                 while (!streamReader.EndOfStream)
+
                 {
                     list.Add(int.Parse(streamReader.ReadLine()));
                 }
@@ -33,7 +34,6 @@ namespace test25
             {
                 streamWriter.Write(result);
             }
-
 
         }
     }
