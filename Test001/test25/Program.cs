@@ -11,11 +11,12 @@ namespace test25
             int a, b;
             char result;
             StreamReader streamReader = new StreamReader("input.txt");
-            string s = streamReader.ReadToEnd();
+            var s = streamReader.ReadToEnd().Split(new char[]{ ' ','\n','\r'});
+            
             try
             {
-                a = s.First();
-                b = s.Last();
+                a = Convert.ToInt32(s.First()) ;
+                b = Convert.ToInt32(s.Last());
                 
                 if (a < b)
                 {
