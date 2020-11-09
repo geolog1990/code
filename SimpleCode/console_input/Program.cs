@@ -1,12 +1,17 @@
 ﻿using System;
 
+//ввод данных в консоль
+
 namespace console_input
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string data;
+
+            data = Console.ReadLine();
+            Console.WriteLine("Привет, " + data + "!!!");
         }
     }
 }
