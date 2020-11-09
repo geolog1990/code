@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization; 
 
 //конвертация строки
 
@@ -27,6 +28,10 @@ namespace convertation
             int result = a + b;
 
             Console.WriteLine("Сумма чисел равна = " + result);
+
+            string str2 = "1,9";
+
+            double c = Convert.ToDouble(str2);
 
          }
     }
