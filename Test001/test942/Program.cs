@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 namespace test942
 {
@@ -7,7 +8,8 @@ namespace test942
         public static void Main(string[] args)
         {
             StreamReader streamReader = new StreamReader("input.txt");
-            string N = streamReader.ReadLine();
+            string s = streamReader.ReadLine();
+            
         }
     }
 }
