@@ -6,7 +6,7 @@ namespace variables
     {
         static void Main(string[] args)
         {
-            int a;
+            int a = 9;
 
             a = 5;
 
