@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCode", "SimpleCode\Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "variables", "variables\variables.csproj", "{AE39E78B-AC7A-4CC9-8F70-6443E3D09292}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "console_input", "console_input\console_input.csproj", "{7845165F-A78F-40AB-9E79-D1788A0D134F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AE39E78B-AC7A-4CC9-8F70-6443E3D09292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE39E78B-AC7A-4CC9-8F70-6443E3D09292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE39E78B-AC7A-4CC9-8F70-6443E3D09292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7845165F-A78F-40AB-9E79-D1788A0D134F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7845165F-A78F-40AB-9E79-D1788A0D134F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7845165F-A78F-40AB-9E79-D1788A0D134F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7845165F-A78F-40AB-9E79-D1788A0D134F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
