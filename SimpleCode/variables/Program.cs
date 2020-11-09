@@ -6,11 +6,14 @@ namespace variables
     {
         static void Main(string[] args)
         {
-            int a = 9;
+            int a, b;
 
             a = 5;
 
+            b = 99;
+
             Console.WriteLine(a);
+            Console.WriteLine(b);
         }
     }
 }
