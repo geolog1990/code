@@ -8,9 +8,10 @@ namespace Operators
     {
         static void Main(string[] args)
         {
-            int a = 2;
-            int b = 5;
-            int result = a + b;
+            int a = 10;
+            int b = 3;
+            int c = 5;
+            double result = (double) a % b;
             Console.WriteLine(result);
         }
     }
