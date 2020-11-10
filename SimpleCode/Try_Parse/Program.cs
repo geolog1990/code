@@ -18,7 +18,7 @@ namespace Try_Parse
 
             if (result)
             {
-                Console.WriteLine("Конвертация успешна" + result);
+                Console.WriteLine("Конвертация успешна" + result + a);
             }
             else
             {
