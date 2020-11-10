@@ -9,7 +9,7 @@ namespace convertation
     {
         static void Main(string[] args)
         {
-            string str;
+            /*string str;
 
             int a, b;
 
@@ -27,11 +27,16 @@ namespace convertation
 
             int result = a + b;
 
-            Console.WriteLine("Сумма чисел равна = " + result);
+            Console.WriteLine("Сумма чисел равна = " + result);*/
 
-            string str2 = "1,9";
+            string str2 = "1.9";
 
-            double c = Convert.ToDouble(str2);
+            NumberFormatInfo numberFormatInfo = new NumberFormatInfo()
+            {
+                NumberDecimalSeparator = ".",
+            };
+
+            double a = Convert.ToDouble(str2, numberFormatInfo);
 
          }
     }
