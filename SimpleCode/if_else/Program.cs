@@ -6,7 +6,8 @@ namespace if_else
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            bool isInfected = true;
+
         }
     }
 }
