@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Convert", "Convert\Convert.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Try_Parse", "Try_Parse\Try_Parse.csproj", "{BCA338C5-D754-44F1-9940-BDDB81543CAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators", "Operators\Operators.csproj", "{CF907FA2-2B3D-41B6-9A99-E72BF000740A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators", "Operators\Operators.csproj", "{CF907FA2-2B3D-41B6-9A99-E72BF000740A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Increment", "Increment\Increment.csproj", "{A6AF0A67-B6DA-4699-9CBC-FED326427C2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CF907FA2-2B3D-41B6-9A99-E72BF000740A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF907FA2-2B3D-41B6-9A99-E72BF000740A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF907FA2-2B3D-41B6-9A99-E72BF000740A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AF0A67-B6DA-4699-9CBC-FED326427C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AF0A67-B6DA-4699-9CBC-FED326427C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AF0A67-B6DA-4699-9CBC-FED326427C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AF0A67-B6DA-4699-9CBC-FED326427C2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
