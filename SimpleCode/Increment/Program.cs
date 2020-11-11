@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Dynamic;
 
 //инкремент и декремент. Унарные операторы
 
@@ -8,7 +9,10 @@ namespace Increment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a = 0;
+           
+            Console.WriteLine(++a);
         }
     }
 }
+ 
