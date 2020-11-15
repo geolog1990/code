@@ -19,7 +19,7 @@ namespace if_else
             bool isHighTemperature = false;
             bool hasNoCooling = fanSpeed <= 0;
             */
-            if (GetTemperature() | GetCoolingStatus())
+            if (GetTemperature() || GetCoolingStatus())
             {
                 Console.WriteLine("Угроза повреждения процессора!");
             }
