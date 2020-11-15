@@ -6,17 +6,14 @@ namespace if_else
     {
         static void Main(string[] args)
         {
-            int a;
-            a = int.Parse(Console.ReadLine());
-
-            if (a == 5)
+            bool isInfected = false;
+            
+            if (!isInfected)
             {
                 Console.WriteLine("а равно 5");
             }
-            else
-            {
-                Console.WriteLine("а не равно 5");    
-            }
+       
+            
         }
     }
 }
