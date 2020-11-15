@@ -15,6 +15,9 @@ namespace Tswitch
                 case 2:
                     Console.WriteLine("ввели число 2");
                     break;
+                default:
+                    Console.WriteLine("ввели не то");
+                    break;
             }
         }
 }
