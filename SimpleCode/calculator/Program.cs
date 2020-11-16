@@ -12,6 +12,7 @@ namespace calculator
             int secondNumber = int.Parse(Console.ReadLine());
             Console.WriteLine("Какую операцию мне произвести?");
             string str = Console.ReadLine();
+            /*
             switch (str)
             {
                 case "+":
@@ -29,6 +30,29 @@ namespace calculator
                 default:
                     Console.WriteLine("Этого я пока не умею");
                     break;
+            }
+            */
+            if (str == "+")
+            {
+                Console.WriteLine(firstNumber + str + secondNumber + "=" + (firstNumber + secondNumber));
+            }
+            else 
+            {
+                if (str == "-")
+                {
+                    Console.WriteLine(firstNumber + str + secondNumber + "=" + (firstNumber - secondNumber));
+                }
+                else
+                {
+                    if (str == "*") 
+                    {
+                        Console.WriteLine(firstNumber + str + secondNumber + "=" + (firstNumber * secondNumber));
+                    }
+                    else
+                    {
+                        Console.WriteLine(firstNumber + str + secondNumber + "=" + (firstNumber / secondNumber));
+                    }
+                }
             }
         }
     }
