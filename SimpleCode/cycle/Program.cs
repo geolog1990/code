@@ -10,7 +10,8 @@ namespace cycle
         static void Main(string[] args)
         {
             int count = 0;
-            while (true)
+            int limit = int.Parse(Console.ReadLine());
+            while (count < limit)
             {
                 count++;
                 Console.WriteLine(count);
