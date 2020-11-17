@@ -22,7 +22,7 @@ namespace cycle
             {
                 if (currentValue % 2 == 0)
                 {
-                    evenNumbersSum = evenNumbersSum + currentValue;
+                    evenNumbersSum += currentValue;
                     evenNumbersCount++;
                 }
                 else 
