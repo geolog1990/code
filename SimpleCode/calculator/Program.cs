@@ -8,12 +8,25 @@ namespace calculator
         {
             while (true)
             {
-                Console.WriteLine("Введите первую цифру");
-                double firstNumber = double.Parse(Console.ReadLine());
-                Console.WriteLine("Введите вторую цифру");
-                double secondNumber = double.Parse(Console.ReadLine());
-                Console.WriteLine("Какую операцию мне произвести? : '+' '-' '*' '/'");
-                string action = Console.ReadLine();
+                Console.Clear();
+                double firstNumber, secondNumber;
+                string action;
+                try
+                {
+                    Console.WriteLine("Введите первую цифру");
+                    firstNumber = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Введите вторую цифру");
+                    secondNumber = double.Parse(Console.ReadLine());
+                    Console.WriteLine("Какую операцию мне произвести? : '+' '-' '*' '/'");
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Не удалось преобразовать строку в число");
+                    Console.ReadLine();
+                    continue;
+                }
+                                
+                action = Console.ReadLine();
 
                 switch (action)
                 {
