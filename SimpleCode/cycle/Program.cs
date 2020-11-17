@@ -10,12 +10,11 @@ namespace cycle
         static void Main(string[] args)
         {
             int count = 0;
-            int limit = int.Parse(Console.ReadLine());
-            while (count < limit)
+            do
             {
                 count++;
                 Console.WriteLine(count);
-            }
+            } while (count < 5);
         }
     }
 }
