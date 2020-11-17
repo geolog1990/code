@@ -12,8 +12,8 @@ namespace calculator
             double secondNumber = double.Parse(Console.ReadLine());
             Console.WriteLine("Какую операцию мне произвести? : '+' '-' '*' '/'");
             string action = Console.ReadLine();
-            /*
-            switch (str)
+            
+            switch (action)
             {
                 case "+":
                     Console.WriteLine(firstNumber + "+" + secondNumber + "=" + (firstNumber + secondNumber));
@@ -25,13 +25,17 @@ namespace calculator
                     Console.WriteLine(firstNumber + "*" + secondNumber + "=" + (firstNumber * secondNumber));
                     break;
                 case "/":
-                    Console.WriteLine(firstNumber + "/" + secondNumber + "=" + (firstNumber / secondNumber));
+                    if (secondNumber == 0)
+                        Console.WriteLine(0);
+                    else
+                        Console.WriteLine(firstNumber + "/" + secondNumber + "=" + (firstNumber / secondNumber));
                     break;
                 default:
                     Console.WriteLine("Этого я пока не умею");
                     break;
             }
-            */
+            
+            /*
             if (action == "+")
             {
                 Console.WriteLine(firstNumber + action + secondNumber + "=" + (firstNumber + secondNumber));
@@ -55,7 +59,7 @@ namespace calculator
             {
                 Console.WriteLine("Этого я пока не умею делать!");
             }
-
+            */
             Console.ReadLine();
         }
     }
