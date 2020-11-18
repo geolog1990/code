@@ -9,9 +9,15 @@ namespace CycleFor
     {
         static void Main(string[] args)
         {
+            /*int limit = int.Parse(Console.ReadLine());
             
-            
-            for (int i = 0; i <= 10; i++)
+            for (int i = 0; i <= limit; i++)
+            {
+                Console.WriteLine(i);
+            }
+            */
+
+            for (int i = 5; i > 0; i--)
             {
                 Console.WriteLine(i);
             }
