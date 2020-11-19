@@ -9,17 +9,19 @@ namespace CycleFor
     {
         static void Main(string[] args)
         {
-            /*int limit = int.Parse(Console.ReadLine());
-            
-            for (int i = 0; i <= limit; i++)
+            Console.WriteLine("Введдите высоту прямоугольника");
+            int height = int.Parse(Console.ReadLine());
+            Console.WriteLine("Введите длину прямоугольника");
+            int width = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= height; i++)
             {
-                Console.WriteLine(i);
-            }
-            */
-
-            for (int i = 5; i > 0; i--)
-            {
-                Console.WriteLine(i);
+                
+                for (int j = 0; j <= width; j++)
+                {
+                    Console.Write("#");
+                }
+                
+                Console.WriteLine();
             }
         }
     }
