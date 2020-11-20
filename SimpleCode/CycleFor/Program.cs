@@ -14,29 +14,25 @@ namespace CycleFor
             Console.WriteLine("Введите длину прямоугольника");
             int width = int.Parse(Console.ReadLine());
             */
-            for (int i = 0; i <= 10; i++)
+           
+            for (int i = 0; i < 10; i++)
             {
-                
-                for (int j = 1; j <= i; j++)
+                for (int j = 0; j <= i; j++)
                 {
                     Console.Write("#");
                 }
-                
                 Console.WriteLine();
             }
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine("ghbdtn");
 
-            for (int i = 10; i <= 10; i--)
+            Console.WriteLine();
+            Console.WriteLine();
+
+            for (int i = 0; i < 10; i++)
             {
-
-                for (int j = 10; j < i; j--)
+                for (int j = 10; j > i; j--)
                 {
                     Console.Write("#");
                 }
-
                 Console.WriteLine();
             }
         }
