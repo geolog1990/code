@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "__switch_", "switch\__switc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculator", "calculator\calculator.csproj", "{844C682E-4A4A-4899-9AF4-990A83EDCB29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cycle", "cycle\cycle.csproj", "{17912D06-D48C-4008-BC06-88A6D3B0B99C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cycle", "cycle\cycle.csproj", "{17912D06-D48C-4008-BC06-88A6D3B0B99C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CycleFor", "CycleFor\CycleFor.csproj", "{7BF2FC75-07AE-485E-814D-C566223F7C49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CycleFor", "CycleFor\CycleFor.csproj", "{7BF2FC75-07AE-485E-814D-C566223F7C49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ternar", "Ternar\Ternar.csproj", "{3ED4FFAC-EA04-4B45-B1F6-71D1EE4FF66D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{7BF2FC75-07AE-485E-814D-C566223F7C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BF2FC75-07AE-485E-814D-C566223F7C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BF2FC75-07AE-485E-814D-C566223F7C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED4FFAC-EA04-4B45-B1F6-71D1EE4FF66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED4FFAC-EA04-4B45-B1F6-71D1EE4FF66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED4FFAC-EA04-4B45-B1F6-71D1EE4FF66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED4FFAC-EA04-4B45-B1F6-71D1EE4FF66D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
