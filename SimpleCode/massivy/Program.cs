@@ -32,7 +32,7 @@ namespace massivy
                 
                 if (myArray[i] % 2 == 0) 
                 {
-                    sumCV = sumCV + myArray[i];
+                    sumCV += + myArray[i];
                 }
             }
             //наименьшее число
