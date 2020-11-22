@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cycle", "cycle\cycle.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CycleFor", "CycleFor\CycleFor.csproj", "{7BF2FC75-07AE-485E-814D-C566223F7C49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ternar", "Ternar\Ternar.csproj", "{3ED4FFAC-EA04-4B45-B1F6-71D1EE4FF66D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ternar", "Ternar\Ternar.csproj", "{3ED4FFAC-EA04-4B45-B1F6-71D1EE4FF66D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "massivy", "massivy\massivy.csproj", "{EB832611-2EF6-4911-97E7-4E7EA5F4D630}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{3ED4FFAC-EA04-4B45-B1F6-71D1EE4FF66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ED4FFAC-EA04-4B45-B1F6-71D1EE4FF66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ED4FFAC-EA04-4B45-B1F6-71D1EE4FF66D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB832611-2EF6-4911-97E7-4E7EA5F4D630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB832611-2EF6-4911-97E7-4E7EA5F4D630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB832611-2EF6-4911-97E7-4E7EA5F4D630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB832611-2EF6-4911-97E7-4E7EA5F4D630}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
