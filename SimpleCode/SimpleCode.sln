@@ -55,6 +55,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW12_2", "HW12_2\HW12_2.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rekurs", "Rekurs\Rekurs.csproj", "{21DDA742-E5C0-4CDB-B73E-B660733AF6CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW15_1", "HW15_1\HW15_1.csproj", "{6A70D3B0-8873-4A36-88F2-DDD70F651089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP", "OOP\OOP.csproj", "{554FA084-B3DF-4445-A8A4-CCBBF606CCC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,14 @@ Global
 		{21DDA742-E5C0-4CDB-B73E-B660733AF6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21DDA742-E5C0-4CDB-B73E-B660733AF6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21DDA742-E5C0-4CDB-B73E-B660733AF6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A70D3B0-8873-4A36-88F2-DDD70F651089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A70D3B0-8873-4A36-88F2-DDD70F651089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A70D3B0-8873-4A36-88F2-DDD70F651089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A70D3B0-8873-4A36-88F2-DDD70F651089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554FA084-B3DF-4445-A8A4-CCBBF606CCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554FA084-B3DF-4445-A8A4-CCBBF606CCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554FA084-B3DF-4445-A8A4-CCBBF606CCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554FA084-B3DF-4445-A8A4-CCBBF606CCC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
