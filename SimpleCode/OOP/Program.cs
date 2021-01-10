@@ -20,16 +20,6 @@ namespace OOP
         public int y;
         public Color color;
     }
-
-    class Student
-    {
-        public Guid id;
-        public string firstName;
-        public string lastName;
-        public string middleName;
-        public int age;
-        public string group;
-    }
     
     class Program
     {
@@ -47,16 +37,16 @@ namespace OOP
             return student;
         }
 
-        static void Print(Student student) 
-        {
-            Console.WriteLine("Информация о студенте:");
-            Console.WriteLine($"Id: {student.id}"); ;
-            Console.WriteLine($"Фамилия: {student.lastName}");
-            Console.WriteLine($"Имя: {student.firstName}");
-            Console.WriteLine($"Отчество: {student.middleName}");
-            Console.WriteLine($"Возраст: {student.age}");
-            Console.WriteLine($"Группа: {student.group}");
-        }
+        //static void Print(Student student) 
+        //{
+        //    Console.WriteLine("Информация о студенте:");
+        //    Console.WriteLine($"Id: {student.id}"); ;
+        //    Console.WriteLine($"Фамилия: {student.lastName}");
+        //    Console.WriteLine($"Имя: {student.firstName}");
+        //    Console.WriteLine($"Отчество: {student.middleName}");
+        //    Console.WriteLine($"Возраст: {student.age}");
+        //    Console.WriteLine($"Группа: {student.group}");
+        //}
         
         static void Main(string[] args)
         {
@@ -74,7 +64,7 @@ namespace OOP
 
             var firstStudent = GetStudent();
 
-            Print(firstStudent);
+            firstStudent.Print();
         }
     }
 }
