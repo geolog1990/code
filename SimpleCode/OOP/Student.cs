@@ -25,5 +25,11 @@ namespace OOP
             Console.WriteLine($"Возраст: {age}");
             Console.WriteLine($"Группа: {group}");
         }
-    }
+
+        public string GetFullName() 
+        {
+            return $"{lastName} {firstName} {middleName}";
+        }
+    }   
+
 }
