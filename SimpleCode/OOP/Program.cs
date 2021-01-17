@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Reflection;
 
 namespace OOP
 {
@@ -14,59 +15,7 @@ namespace OOP
         Black
     }
     
-    class Point
-    {
-        public int x;
-        private int y;
-        public Color color;
-
-        private void PrintX() 
-        {
-            Console.WriteLine($"X: {x}");
-        }
-
-        public void PrintY() 
-        {
-            Console.WriteLine($"Y: {y}");
-        }
-    }
-
-    class Car
-    {
-        private int speed = 0;
-
-        public void PrintSpeed() 
-        {
-            if (speed == 0)
-            {
-                Console.WriteLine("Стоим на месте...");
-            }
-            if (speed > 0)
-            {
-                Console.WriteLine($"Едем вперед со скоростью {speed} км/ч");
-            }
-            if (speed < 0)
-            {
-                Console.WriteLine($"Едем назад со скоростью {-speed} км/ч");
-            }
-        }
-
-        public void DriveForward() 
-        {
-            speed = 60;        
-        }
-
-        public void Stop()
-        {
-            speed = 0;
-        }
-
-        public void DriveBackward() 
-        {
-            speed = -5;
-        }
-    }
-    
+       
     class Program
     {
         static Student GetStudent() 
@@ -96,17 +45,16 @@ namespace OOP
         
         static void Main(string[] args)
         {
-            Point p = new Point();
-            p.x = 4;
-            p.y = 2;
-            p.color = Color.Green;
+            //var TypeInfo = typeof(Point).
+            //    GetFields(BindingFlags.Instance | 
+            //    BindingFlags.NonPublic | 
+            //    BindingFlags.Public);
+            //foreach (var item in TypeInfo) 
+            //{
+            //    Console.WriteLine($"{item.Name}\t IsPrivate: {item.IsPrivate}\t IsPublic: {item.IsPublic}");
+            //}
 
-            Point p2 = new Point
-            {
-                x = 2,
-                y = 6,
-                color = Color.Grey
-            };
+
 
             //var firstStudent = GetStudent();
             //firstStudent.Print();
@@ -117,20 +65,22 @@ namespace OOP
             //string d = firstStudent.GetFullName();
             //Console.ReadLine();
 
-            Console.WriteLine("\t== Car 1 ==");
+            //Console.WriteLine("\t== Car 1 ==");
 
-            var car = new Car();
-            car.DriveForward();
-            car.PrintSpeed();
-            car.Stop();
-            car.PrintSpeed();
+            //var car = new Car();
+            //car.DriveForward();
+            //car.PrintSpeed();
+            //car.Stop();
+            //car.PrintSpeed();
 
-            Console.WriteLine("\t== Car 2 ==");
-            var car2 = new Car();
-            car2.PrintSpeed();
-            car2.DriveBackward();
-            car2.PrintSpeed();
+            //Console.WriteLine("\t== Car 2 ==");
+            //var car2 = new Car();
+            //car2.PrintSpeed();
+            //car2.DriveBackward();
+            //car2.PrintSpeed();
 
+            Gun gun = new Gun();
+            gun.Shoot();
 
         }
     }
